@@ -11,13 +11,13 @@ class Users extends Seeder
         //menambahkan data dalam tabel user
         $data = [
             [
-                'nama_lengkap' => 'Jihadan Beckhianosyuhada',
-                'username' => 'jihadan',
+                'nama_lengkap' => 'Alan Florensius',
+                'username' => 'Alan',
                 'id_jabatan' => '1',
                 'password' => password_hash('1234', PASSWORD_DEFAULT),
                 'status' => 'aktif',
-                'email' => 'jihadanbs11@gmail.com',
-                'no_telepon' => '088215178312',
+                'email' => 'florensiusalan390@gmail.com',
+                'no_telepon' => '081236656992',
                 'file_profil' => 'gambar.jpg'
             ],
             [
